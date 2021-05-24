@@ -6,6 +6,6 @@ ROS URDF description package of REMO robot (Research Education Mobile/Modular ro
 
 
 
-:handshake: Acknowledgment
+# :handshake: Acknowledgment
 
-- [Louis Morandy-Rapiné](https://louisrapine.com/)
+- [Louis Morandy-Rapiné](https://louisrapine.com/) for his great work on REMO robot and designing it in [Fusion 360](https://www.autodesk.com/products/fusion-360/overview).
