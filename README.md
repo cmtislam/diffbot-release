@@ -25,4 +25,4 @@ You addons to Remo are most welcome, feel free to open a discussion/issue or dir
 ## License
 
 `remo_description` is licenses under the [BSD-3 clause](./LICENSE).
-See also open-source-license-acknowledgements-and-third-party-copyrights.md.
+See also [open-source-license-acknowledgements-and-third-party-copyrights.md](open-source-license-acknowledgements-and-third-party-copyrights.md).
