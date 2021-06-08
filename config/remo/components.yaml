@@ -1,0 +1,17 @@
+jetson_nano:
+  mass: 0.1               # Base mass in Kg
+  x_size: 0.08           # Dimension in x axis
+  y_size: 0.09            # Dimension in y axis
+  z_size: 0.04           # Dimension in z axis
+  mesh: '../components/jetson_nano_dev_kit_b01.stl'  # Name of the mesh files. Leave it empty ('') to have a white base.
+  #mesh: ''
+  scale: '0.001 0.001 0.001'
+
+rpi:
+  mass: 0.1               # Base mass in Kg
+  x_size: 0.06           # Dimension in x axis
+  y_size: 0.09            # Dimension in y axis
+  z_size: 0.03           # Dimension in z axis
+  mesh: '../components/raspberry_pi_4B.stl'  # Name of the mesh files. Leave it empty ('') to have a white base.
+  #mesh: ''
+  scale: '0.001 0.001 0.001'
