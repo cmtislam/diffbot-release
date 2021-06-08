@@ -7,8 +7,8 @@ ROS URDF description package of REMO robot (Research Education Mobile/Modular ro
 ## Usage
 
 This is a ROS package which should be cloned in a catkin workspace.
-To use Remo inside simulation or on a real 3D printed Remo robot, you can directly make use of the ROS packages in the 
-ros-mobile-robots/diffbot repository. 
+To use `remo_description` inside a Gazebo simulation or on a real 3D printed Remo robot, you can directly make use of the ROS packages in the 
+[ros-mobile-robots/diffbot](https://github.com/ros-mobile-robots/diffbot) repository. 
 Most of the launch files you find in the `diffbot` repository
 accept a `model` argument. Just append `model:=remo` to the end of a `roslaunch` command to make use of this `remo_description` package.
 
