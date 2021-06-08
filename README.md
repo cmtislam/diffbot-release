@@ -6,7 +6,7 @@ ROS URDF description package of REMO robot (Research Education Mobile/Modular ro
 
 ## Camera Types
 
-The [`remo.urdf.xacro`]({{ remo_repo_url }}/urdf/remo.urdf.xacro) accepts a `camera_type`
+The [`remo.urdf.xacro`](urdf/remo.urdf.xacro) accepts a `camera_type`
 [xacro arg](http://wiki.ros.org/xacro#Rospack_commands) which lets you choose between the following different camera types
 
 | Raspicam v2 with IMX219 | OAK-1 | OAK-D |
