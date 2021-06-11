@@ -7,8 +7,7 @@
 
   <!-- Parameter to choose between different SBC types -->
   <!-- Must be one of ['rpi', 'jetson'] -->
-  <xacro:arg name="sbc_type" default="'jetson'" />
-  
+  <xacro:arg name="sbc_type" default="'rpi'" />
 
 
   <xacro:property name="package_name" value="remo_description"/>
@@ -83,10 +82,10 @@
     <xacro:addon addon="jetson_deck" base_prop="${base_props}" parent_link="base_link" >
       <origin xyz="0 0 0" rpy="0 0 0" />
     </xacro:addon>
-    <!-- Jetson Nano link 
+    <!-- Jetson Nano link -->
     <xacro:addon addon="jetson_nano" base_prop="${component_props}" parent_link="jetson_deck_link" >
       <origin xyz="0 0 0.007" rpy="0 0 0" />
-    </xacro:addon>-->
+    </xacro:addon>
     <!-- Breadboard 400 point -->
     <xacro:addon addon="breadboard" base_prop="${base_props}" parent_link="base_link" >
       <origin xyz="-0.05 0 0" rpy="0 0 0" />
