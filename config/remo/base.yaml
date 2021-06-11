@@ -39,7 +39,7 @@ slamtec_holder:
   y_size: 0.015             # Dimension in y axis
   z_size: 0.025             # Dimension in z axis
   mesh: 'lidar_platform/slamtec_holder.stl'  # Name of the mesh files. Leave it empty ('') to have a white base.
-  mesh: ''
+  #mesh: ''
   scale: '0.001 0.001 0.001'
 
 slamtec_usb_to_serial:
