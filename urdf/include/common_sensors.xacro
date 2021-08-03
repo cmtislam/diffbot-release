@@ -38,7 +38,7 @@
                             o_rpy="0 0 0" />
   </link>
   <gazebo reference="${prefix}_gpu_laser_link">
-    <material>Gazebo/Grey</material>
+    <material>${sensor_prop['gpu_laser']['color']}</material>
   </gazebo>
 
   <joint name="${prefix}_gpu_laser_joint" type="fixed">
@@ -122,7 +122,7 @@
   </link>
 
   <gazebo reference="camera_link">
-    <material>Gazebo/Red</material>
+    <material>${sensor_prop['camera']['color']}</material>
   </gazebo>
 
   <joint name="camera_joint" type="fixed">
