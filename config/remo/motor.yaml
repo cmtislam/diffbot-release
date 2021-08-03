@@ -1,4 +1,4 @@
-mass: 0.1          # Motor mass in Kg
+mass: 0.041        # Motor mass in Kg (41 g)
 x_size: 0.07       # Motor dimension in x axis
 y_size: 0.0225     # Motor dimension in y axis
 z_size: 0.0188     # Motor dimension in z axis
@@ -8,3 +8,4 @@ scale: '0.001 0.001 0.001'
 x_offset: 0.058
 y_offset: -0.008
 z_offset: -0.0336
+color: Gazebo/SkyBlue

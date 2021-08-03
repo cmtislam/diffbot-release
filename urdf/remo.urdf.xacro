@@ -183,10 +183,9 @@
   <xacro:gazebo_ros_control robotNamespace="/diffbot"> 
   </xacro:gazebo_ros_control>
 
-  
+
   <xacro:set_all_wheel_frictions friction="0.1"> 
   </xacro:set_all_wheel_frictions>
-
 
   <!-- Additional addons -->
   <xacro:addon addon="power_bank" base_prop="${base_props}" parent_link="base_link" >

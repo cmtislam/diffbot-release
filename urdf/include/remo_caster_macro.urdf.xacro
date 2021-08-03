@@ -64,7 +64,7 @@
       <child link="${prefix}_caster_base_link" />
     </joint>
     <gazebo reference="${prefix}_caster_base_link">
-      <material>Gazebo/Black</material>
+      <material>Gazebo/Grey</material>
     </gazebo>
 
 
@@ -114,7 +114,7 @@
       <axis xyz="0 0 1" />
     </joint>
     <gazebo reference="${prefix}_caster_rotation_link">
-      <material>Gazebo/Black</material>
+      <material>Gazebo/Grey</material>
     </gazebo>
 
 
@@ -160,7 +160,8 @@
       <parent link="${prefix}_caster_rotation_link" />
       <child link="${prefix}_caster_wheel_link" />
       <axis xyz="0 1 0" />
-      <dynamics damping="0.01" friction="0.0"/>
+      <!-- Don't turn damping higher than 0.001, otherwise caster and wheels merge in simulation (bug?) -->
+      <dynamics damping="0.001" friction="0.0"/>
     </joint>
     <gazebo reference="${prefix}_caster_wheel_link">
       <material>Gazebo/White</material>

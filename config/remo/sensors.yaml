@@ -1,5 +1,5 @@
 gpu_laser:
-  mass: 0.1          # Motor mass in Kg
+  mass: 0.17          # Motor mass in Kg (~170g)
   radius: 0.015     # Wheel radius in m
   length: 0.01      # Wheel length in m, considering is as a cylinder
   mesh: 'rplidar-a2.stl'  # Name of the mesh files. Leave it empty ('') to have a red cylinder
@@ -13,7 +13,7 @@ gpu_laser:
 
 
 camera:
-  mass: 0.05
+  mass: 0.01
   radius: 0.015
   length: 0.01
   type: raspi-cam # choose one camera type [raspi-cam, oak-1, oak-d]
@@ -28,7 +28,7 @@ camera:
 
 
 imu:
-  mass: 0.1
+  mass: 0.005
   size:
     x: 0.001
     y: 0.001
