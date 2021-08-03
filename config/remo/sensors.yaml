@@ -1,4 +1,4 @@
-gpu_laser:
+laser:
   mass: 0.17          # Motor mass in Kg (~170g)
   radius: 0.015     # Wheel radius in m
   length: 0.01      # Wheel length in m, considering is as a cylinder
@@ -10,6 +10,7 @@ gpu_laser:
   angular_range:
     min: -3.1415
     max: 3.1415
+  enable_gpu: false
   color: Gazebo/DarkGrey
 
 

@@ -124,9 +124,10 @@
 
   <!-- Sensors -->
   <!-- SLAMTEC RPLidar -->
-  <xacro:gpu_laser prefix="rplidar" parent_link="lidar_platform_link"
-                   sensor_prop="${sensor_props}"> 
-  </xacro:gpu_laser>
+  <xacro:laser prefix="rplidar" parent_link="lidar_platform_link"
+                   sensor_prop="${sensor_props}"
+                   enable_gpu="${sensor_props['laser']['enable_gpu']}">
+  </xacro:laser>
 
   <!-- Camera -->
   <!-- Camera mount link -->
