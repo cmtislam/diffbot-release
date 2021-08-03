@@ -87,7 +87,7 @@
       <origin xyz="0 0 0.007" rpy="0 0 0" />
     </xacro:addon>
     <!-- Breadboard 400 point -->
-    <xacro:addon addon="breadboard" base_prop="${base_props}" parent_link="base_link" >
+    <xacro:addon addon="breadboard" base_prop="${component_props}" parent_link="base_link" >
       <origin xyz="-0.05 0 0" rpy="0 0 0" />
     </xacro:addon>
   </xacro:if>
@@ -102,7 +102,7 @@
       <origin xyz="0 0 0.007" rpy="0 0 0" />
     </xacro:addon>
     <!-- Breadboard 400 point -->
-    <xacro:addon addon="breadboard" base_prop="${base_props}" parent_link="base_link" >
+    <xacro:addon addon="breadboard" base_prop="${component_props}" parent_link="base_link" >
       <origin xyz="-0.04 0 0" rpy="0 0 0" />
     </xacro:addon>
   </xacro:if>
@@ -188,18 +188,18 @@
   </xacro:set_all_wheel_frictions>
 
   <!-- Additional addons -->
-  <xacro:addon addon="power_bank" base_prop="${base_props}" parent_link="base_link" >
+  <xacro:addon addon="power_bank" base_prop="${component_props}" parent_link="base_link" >
     <origin xyz="0 0 -0.01" rpy="0 0 0" />
   </xacro:addon>
-  <xacro:addon addon="battery_pack" base_prop="${base_props}" parent_link="base_link" >
+  <xacro:addon addon="battery_pack" base_prop="${component_props}" parent_link="base_link" >
     <origin xyz="0.045 0 -0.04" rpy="0 0 0" />
   </xacro:addon>
 
-  <xacro:addon addon="mcu" base_prop="${base_props}" parent_link="base_link" >
+  <xacro:addon addon="mcu" base_prop="${component_props}" parent_link="base_link" >
     <origin xyz="-0.045 -0.02 0.01" rpy="0 0 ${-pi/2}" />
   </xacro:addon>
 
-  <xacro:addon addon="motor_driver" base_prop="${base_props}" parent_link="base_link" >
+  <xacro:addon addon="motor_driver" base_prop="${component_props}" parent_link="base_link" >
     <origin xyz="-0.0086 0 -0.0277" rpy="0 0 0" />
   </xacro:addon>
 

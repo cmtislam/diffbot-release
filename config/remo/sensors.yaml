@@ -10,6 +10,7 @@ gpu_laser:
   angular_range:
     min: -3.1415
     max: 3.1415
+  color: Gazebo/DarkGrey
 
 
 camera:
@@ -25,6 +26,7 @@ camera:
     oak-1: BW1093_REV2_20201014.stl
     oak-d: OAK-D-parts-14sep2020.stl
     scale: '0.001 0.001 0.001'
+  color: Gazebo/FlatBlack
 
 
 imu:
@@ -40,3 +42,4 @@ imu:
   mesh: '../components/bno055.stl' # Name of the mesh files. Leave it empty ('') to have a red box
   #mesh: ''
   scale: '0.001 0.001 0.001'
+  color: Gazebo/FlatBlack
