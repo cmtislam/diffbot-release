@@ -34,7 +34,7 @@ accept a `model` argument. Just append `model:=remo` to the end of a `roslaunch`
 
 For assembly instructions please watch the video below:
 
-[![remo fusion animation](raw.githubusercontent.com/ros-mobile-robots/ros-mobile-robots.github.io/main/docs/resources/remo/remo_fusion_animation.gif)](https://youtu.be/6aAEbtfVbAk)
+[![remo fusion animation](https://raw.githubusercontent.com/ros-mobile-robots/ros-mobile-robots.github.io/main/docs/resources/remo/remo_fusion_animation.gif)](https://youtu.be/6aAEbtfVbAk)
 
 ### Git LFS and Bandwith Quota
 
