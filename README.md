@@ -2,7 +2,7 @@
 
 ROS URDF description package of REMO robot (Research Education Mobile/Modular robot) a highly modifiable and extendable mobile robot based on [Nvidia's Jetbot](https://github.com/NVIDIA-AI-IOT/jetbot). This repository contains the stl files to 3D print Remo robot.
 
-![https://media.githubusercontent.com/media/ros-mobile-robots/ros-mobile-robots.github.io/main/docs/resources/remo/remo-rviz-spin.gif](https://media.githubusercontent.com/media/ros-mobile-robots/ros-mobile-robots.github.io/main/docs/resources/remo/remo-rviz-spin.gif)
+![https://raw.githubusercontent.com/ros-mobile-robots/ros-mobile-robots.github.io/main/docs/resources/remo/remo-rviz-spin.gif](https://raw.githubusercontent.com/ros-mobile-robots/ros-mobile-robots.github.io/main/docs/resources/remo/remo-rviz-spin.gif)
 
 ## Camera Types
 
@@ -32,7 +32,9 @@ accept a `model` argument. Just append `model:=remo` to the end of a `roslaunch`
 
 ### Assembly
 
-Coming soon
+For assembly instructions please watch the video below:
+
+[![remo fusion animation](https://raw.githubusercontent.com/ros-mobile-robots/ros-mobile-robots.github.io/main/docs/resources/remo/remo_fusion_animation.gif)](https://youtu.be/6aAEbtfVbAk)
 
 ### Git LFS and Bandwith Quota
 
@@ -41,7 +43,10 @@ to avoid increasing the total size of the repository because of possible stl fil
 For open source repositories, GitHub has a bandwith limit of 1 GB (up to 1.5 GB) per month. 
 Depending on how many users clone/pull the stl files using git lfs per month, this bandwith can be exhausted after a few days. 
 If you are not able to clone/pull the stl files and only get the pointer files, you have to wait until the bandwith quota resets back to zero. 
-In case you need the stl files immediately, you can get in contact, for example opening a new discussion. 
+In case you need the stl files immediately, and to support this work you can get [immediate access to the stl files](https://gumroad.com/l/GnMpU?wanted=true):
+
+<a class="gumroad-button" href="https://gumroad.com/l/GnMpU?wanted=true" data-gumroad-single-product="true">Access Remo STL files</a>
+
 Also if you find this work useful please consider the funding options to support the development and design of this robot.
 However, you will always be able to clone/pull and use the Remo stl files once the bandwith quota resets.
 
