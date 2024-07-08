@@ -1,0 +1,2 @@
+set(diffbot_msgs_MESSAGE_FILES "/home/dev/ros_ws/src/diffbot/diffbot_msgs/msg/Encoders.msg;/home/dev/ros_ws/src/diffbot/diffbot_msgs/msg/EncodersStamped.msg;/home/dev/ros_ws/src/diffbot/diffbot_msgs/msg/AngularVelocities.msg;/home/dev/ros_ws/src/diffbot/diffbot_msgs/msg/AngularVelocitiesStamped.msg;/home/dev/ros_ws/src/diffbot/diffbot_msgs/msg/WheelsCmd.msg;/home/dev/ros_ws/src/diffbot/diffbot_msgs/msg/WheelsCmdStamped.msg;/home/dev/ros_ws/src/diffbot/diffbot_msgs/msg/PID.msg;/home/dev/ros_ws/src/diffbot/diffbot_msgs/msg/PIDStamped.msg")
+set(diffbot_msgs_SERVICE_FILES "")
